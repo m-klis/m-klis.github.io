@@ -95,3 +95,28 @@ a i:hover{
     font-weight: bold;
 }
 
+/* (A) SHOW */
+#collapse1, #collapse2, #collapse3 {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0s;
+}
+  
+/* (B) HIDE */
+#collapse1.hide, #collapse2.hide, #collapse3.hide {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    width: 290px;
+    max-width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    text-decoration: none;
+    opacity: 1;
+    visibility: visible;
+    transition: all 1s;
+}

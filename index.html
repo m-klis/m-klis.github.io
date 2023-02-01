@@ -21,7 +21,10 @@
         <!-- Links and Headers-->
         <h2 class="header">INFO</h2>
         <a href="https://github.com/m-klis" target="_blank" class="links">Github</a>
-        <a href="https://alastua.ddns.net" target="_blank" class="links">Self Hosting</a>
+        <a type="button" class="links" onclick="toggle()">Self Hosting</a>
+        <a href="https://alastua.ddns.net" target="_blank" id="collapse1">Alastua</a>
+        <a href="https://syuhada.ddns.net" target="_blank" id="collapse2">PS-Syuhada</a>
+        <a href="https://dev27.ddns.net" target="_blank" id="collapse3">Dev27</a>
         <script>
             console.clear()
             const styles = [
@@ -41,6 +44,14 @@
             console.log("Have a wonderful day!")
             console.log("Yes, thanks.", "Github: https://github.com/m-klis")
             console.log("Have a wonderful day, too!")
+        </script>
+        <!-- Add script to show/hide -->
+        <script>
+            function toggle () {
+                document.getElementById("collapse1").classList.toggle("hide");
+                document.getElementById("collapse2").classList.toggle("hide");
+                document.getElementById("collapse3").classList.toggle("hide");
+            }
         </script>
     </body>
 
