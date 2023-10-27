@@ -18,7 +18,7 @@ img {
     margin-right: auto;
     margin-top: 10%;
     height: auto;
-    max-width: 100px;
+    max-width: 150px;
 }
     
 .profile {
@@ -96,20 +96,29 @@ a i:hover{
 }
 
 /* (A) SHOW */
-#collapse1, #collapse2, #collapse3 {
+#collapse1, #collapse2, #collapse3, #collapse4, #collapse5, #collapse6, #collapse7 {
     opacity: 0;
     visibility: hidden;
     transition: all 0s;
 }
+
+.collapse {
+    text-align: center;
+}
+
+.collapse:hover {
+    color: #000;
+    background: rgb(192, 192, 192);
+}
   
 /* (B) HIDE */
-#collapse1.hide, #collapse2.hide, #collapse3.hide {
+#collapse1.hide, #collapse2.hide, #collapse3.hide, #collapse4.hide, #collapse5.hide, #collapse6.hide, #collapse7.hide {
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid white;
+    border: 1px solid rgb(192, 192, 192);
     border-width: 2px;
-    width: 290px;
+    width: 260px;
     max-width: 60vw;
     display: block;
     margin-left: auto;
