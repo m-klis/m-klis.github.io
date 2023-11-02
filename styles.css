@@ -96,7 +96,7 @@ a i:hover{
 }
 
 /* (A) SHOW */
-#collapse1, #collapse2, #collapse3, #collapse4, #collapse5, #collapse6, #collapse7 {
+#collapse1, #collapse2, #collapse3, #collapse4, #collapse5, #collapse6, #collapse7, #collapse8 {
     opacity: 0;
     visibility: hidden;
     transition: all 0s;
@@ -112,7 +112,7 @@ a i:hover{
 }
   
 /* (B) HIDE */
-#collapse1.hide, #collapse2.hide, #collapse3.hide, #collapse4.hide, #collapse5.hide, #collapse6.hide, #collapse7.hide {
+#collapse1.hide, #collapse2.hide, #collapse3.hide, #collapse4.hide, #collapse5.hide, #collapse6.hide, #collapse7.hide, #collapse8.hide {
     text-align: center;
     margin-top: 20px;
     padding: 20px;
